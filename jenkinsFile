@@ -2,7 +2,7 @@ pipeline{
   agent any 
   stages{
   
-    stage('build){
+    stage('build'){
       steps{
         echo "build"
       }
@@ -12,9 +12,9 @@ pipeline{
       echo "test"
     }
   }
-  stage('realse'){
+  stage('release'){
     step{
-      echo "realse"
+      echo "release"
     }
   }
   }
